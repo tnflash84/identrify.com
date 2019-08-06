@@ -3,13 +3,13 @@
 ## Netlify Deploy settings
 
 Repository
-    Your GitHub link here
+- Your GitHub link here
     
 Base directory
-    Not set
+- Not set
 
 Build command
-    npm run build
+- npm run build
 
 Publish directory
-    build
+- build
