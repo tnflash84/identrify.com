@@ -1,4 +1,0 @@
-<h1>This is the second page. Notice that the url is the same as the filename</h1>
-<p>Also, notice that the href in the anchor tag to go to the home page isn't the same as the filename</p>
-
-<a href='/'>Home</a>
