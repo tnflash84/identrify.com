@@ -1,4 +1,4 @@
-# Boilerplate repo for deploying static sites with Netlify and Metalsmith
+# Boilerplate repo for deploying static sites with Netlify, Metalsmith and Nunjucks
 
 ## Netlify Deploy settings
 
