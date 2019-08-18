@@ -1,8 +1,6 @@
 # Boilerplate repo for deploying static sites with Netlify, Metalsmith and Nunjucks
 
-## Live demo
-
-https://boilerplate-site.netlify.com
+<a href="https://boilerplate-site.netlify.com" target="_blank">Live demo</a>
 
 
 ## Netlify Deploy settings
