@@ -1,3 +1,5 @@
+// This file compiles the njk files into HTML
+
 console.log('js file build');
 
 var Metalsmith  = require('metalsmith');
