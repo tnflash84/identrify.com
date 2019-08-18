@@ -1,4 +1,5 @@
 // This script is only for localhosting the project
+// If you see an empty white screen in the browser, try running 'npm run build' in the terminal
 // --
 
 // ----------------
@@ -8,7 +9,6 @@
 const http = require('http');
 const fs = require("fs");
 var path = require('path');
-const opn = require('opn');
 
 // --------------------
 // - Global Constants -
@@ -83,5 +83,4 @@ const server = http.createServer((request, response) => {
 server.listen(port, hostname, () => {
 	const my_url = `http://${hostname}:${port}/`;
 	console.log(`Server running at ${my_url}`);
-	opn(my_url);
 });
