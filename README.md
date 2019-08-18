@@ -14,3 +14,11 @@ Base directory:  **Not set**
 Build command:  **npm run build**
 
 Publish directory:  **build**
+
+---
+
+Netlify:  https://www.netlify.com/
+
+Metalsmith:  https://metalsmith.io/
+
+Nunjucks:  https://mozilla.github.io/nunjucks/
