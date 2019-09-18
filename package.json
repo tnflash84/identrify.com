@@ -4,9 +4,9 @@
   "description": "Official repo of boilerplate systems",
   "main": "index.js",
   "scripts": {
-    "app": "node app.js",
     "build": "node build.js",
-    "test": "echo 'test'"
+    "test": "mocha tests/**/*.spec.js --require test-setup",
+    "local": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,19 @@
   "dependencies": {
     "jstransformer-nunjucks": "^0.5.0",
     "metalsmith": "^2.3.0",
-    "metalsmith-in-place": "^4.2.0"
+    "metalsmith-babel": "^5.1.0",
+    "metalsmith-in-place": "^4.2.0",
+    "metalsmith-sass": "^1.6.0",
+    "metalsmith-sitemap": "^1.2.2",
+    "node-sass": "^4.12.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.2",
+    "bootstrap-sass": "^3.3.7",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "mocha": "^6.0.2",
+    "netlify-cli": "^2.11.18",
+    "opn": "^5.4.0"
   }
 }

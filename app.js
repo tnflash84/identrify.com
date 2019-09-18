@@ -9,6 +9,7 @@
 const http = require('http');
 const fs = require("fs");
 var path = require('path');
+const opn = require('opn');
 
 // --------------------
 // - Global Constants -
@@ -38,6 +39,8 @@ function getContentType(extension_name) {
 	    	return 'application/pdf';
 	    case '.wav':
 	        return 'audio/wav';
+	    case '.xml':
+	        return 'application/xml';
 	    default:
 	    	return 'text/html';
 	}
@@ -83,4 +86,5 @@ const server = http.createServer((request, response) => {
 server.listen(port, hostname, () => {
 	const my_url = `http://${hostname}:${port}/`;
 	console.log(`Server running at ${my_url}`);
+	opn(my_url);
 });
