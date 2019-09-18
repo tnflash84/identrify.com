@@ -6,12 +6,13 @@ priority: 1.0
 {% extends "./templates/base.njk" %}
 
 {% block body %}
-  <h1>{{ body_title }}</h1>
-  <p>Some text here</p>
-  <a href="/second-page">Second Page</a>
-  <br>
-  <a href="/subdirectory-example/nested">Nested Url</a>
-  <br>
-  <a href="/sitemap.xml">Sitemap</a>
-  <br><br>
+	<h1>{{ body_title }}</h1>
+	<p>Some text here</p>
+
+	<ul class="navigation-list">
+		<li><a href="/second-page">Second Page</a></li>
+		<li><a href="/subdirectory-example/nested">Nested Url</a></li>
+		<li><a href="/sitemap.xml">Sitemap</a></li>
+	</ul>
+	<br><br>
 {% endblock %}

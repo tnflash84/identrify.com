@@ -1,0 +1,22 @@
+$standard_font_size: 20px;
+
+a {
+	font-size: $standard_font_size;
+}
+
+li {
+	font-size: $standard_font_size;
+}
+
+p {
+	font-size: $standard_font_size;
+}
+
+.navigation-list {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.navigation-list > li {
+	margin-bottom: 14px;
+}
