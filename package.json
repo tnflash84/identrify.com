@@ -1,6 +1,9 @@
 {
   "name": "boilerplate_npm_name",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.16.3"
+  },
   "description": "Official repo of boilerplate systems",
   "main": "index.js",
   "scripts": {

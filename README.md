@@ -16,6 +16,8 @@ Publish directory:  **build**
 
 ---
 
+## Currently working locally on Node v10.16.3
+
 ## Don't edit anything in the build folder, because it gets rebuilt on deploy
 
 ## Running Tests
